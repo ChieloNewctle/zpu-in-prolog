@@ -1,7 +1,8 @@
 # ZPU in Prolog
 
-This is a small toy to run [ZPU](https://github.com/zylin/zpu) assembly code in Prolog.
-Toolchians can be found in [zylin/zpugcc](https://github.com/zylin/zpugcc).
+This is a small toy to run [ZPU](https://github.com/zylin/zpu) assembly code in [SWI-Prolog](https://www.swi-prolog.org).
+
+The gcc toolchians for ZPU can be found in [zylin/zpugcc](https://github.com/zylin/zpugcc).
 
 `zpu.pl` defines the core predicates about ZPU states.
 

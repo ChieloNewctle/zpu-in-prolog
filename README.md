@@ -1,6 +1,7 @@
 # ZPU in Prolog
 
-A small toy to run ZPU assembly code in Prolog.
+This is a small toy to run [ZPU](https://github.com/zylin/zpu) assembly code in Prolog.
+Toolchians can be found in [zylin/zpugcc](https://github.com/zylin/zpugcc).
 
 `zpu.pl` defines the core predicates about ZPU states.
 
@@ -8,7 +9,7 @@ A small toy to run ZPU assembly code in Prolog.
 
 ## Example
 
-You can ask about the result(s) of a function.
+With `test.pl`, you can ask about the result(s) of a function in `test.c`.
 
 ```prolog
 ?- result(fib_r, [10], R).

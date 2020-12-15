@@ -6,7 +6,7 @@ The gcc toolchians for ZPU can be found in [zylin/zpugcc](https://github.com/zyl
 
 `zpu.pl` defines the core predicates about ZPU states.
 
-`toprolog.py` translates ZPU assembly code into predicates fitting the `zpu` module.
+`toprolog.py` translates ZPU assembly code into predicates adapted to the `zpu` module.
 
 ## Example
 
